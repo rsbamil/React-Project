@@ -27,7 +27,7 @@ function Details() {
       <div className="content w-[50%]">
         <h1 className="text-4xl tracking-tighter ">{product.title}</h1>
         <h2 className="text-zinc-400 my-5">{product.category}</h2>
-        <h2 className="text-red-300 mb-3">{product.price}</h2>
+        <h2 className="text-red-300 mb-3">{`$ ${product.price}`}</h2>
         <p className="mb-5 text-sm">{product.description}</p>
         <Link className="py-3 border-blue-300 text-blue-300 px-5 border rounded mr-5">
           Edit
